@@ -1,0 +1,63 @@
+/*Header*/
+#header-nav{
+	background-color: yellow;
+}
+.navbar-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 45px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+* {
+	box-sizing: border-box;
+}
+
+.menu-card {
+	border: 1px solid black;
+	margin: 1px;
+	padding: 3px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+.menu-title {
+	border: 1px solid black;
+	padding: 5px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	float: right;
+	margin: -1px -1px 0px 0px;
+	font-size: 1.5em;
+}
+
+.menu-content {
+	padding-top: 35px;
+	height: 1000px;
+}
+
+#card1 .menu-title {
+	background-color: yellow;
+}
+
+#card2 .menu-title {
+	background-color: #7FFF00;
+}
+
+#card3 .menu-title {
+	background-color: orange;	
+}
+
+
